@@ -1,0 +1,70 @@
+body {
+  background-color: #f9f6f7;
+  font-family: futura;
+  color: black;
+  line-height: 1,5;
+}
+
+h2 {
+  font-family: futura;
+  color: #bd83ce;
+  font-size: 3;
+  line-height: 1;
+}
+
+a {
+  color: grey;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px;
+
+}
+
+a:hover {
+  color: purple;
+}
+
+.container {
+  text-align: center;
+  font-size: 14px;
+}
+
+.card {
+  background-color: #f1ffab;
+  font-size: 13px;
+  padding: 30px;
+  margin: 50px;
+  border: 1px ;
+  width: 300px;
+}
+
+.btn-orange {
+  background: #ee8572;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 720px) {
+  .flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+#logo {
+  width: 300px;
+  border-radius: 3%;
+}
+
